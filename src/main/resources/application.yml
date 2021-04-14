@@ -1,0 +1,21 @@
+#Springboot里面常用xx.yml（Yet Another Markup Language）
+#写 YAML 要比写 XML 快得多(无需关注标签或引号) 使用空格 Space 缩进表示分层，不同层次之间的缩进可以使用不同的空格数目
+#注意：key后面的冒号，后面一定要跟一个空格,树状结构
+
+#server:
+#  port: 8088
+#  jetty:
+#    accesslog:
+#      append: true
+#    enabled: 23
+
+
+
+#spring:
+#  redis:
+#    timeout:
+#    port: 1212
+#    database:
+
+
+

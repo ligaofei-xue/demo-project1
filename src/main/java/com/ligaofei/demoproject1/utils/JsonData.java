@@ -5,7 +5,7 @@ package com.ligaofei.demoproject1.utils;
  */
 public class JsonData {
 
-
+    private int code2;
     private int code;
 
     private Object data;

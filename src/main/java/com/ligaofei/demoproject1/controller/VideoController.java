@@ -19,7 +19,7 @@ import java.util.Map;
 
 //@Controller
 @RestController
-@RequestMapping("/api/v1/video")
+@RequestMapping("/api/v1/pub/video")
 public class VideoController {
 
     @Autowired

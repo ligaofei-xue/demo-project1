@@ -30,4 +30,14 @@ public class TestController {
         map.put("mechid",wxConfig.getPayMechId());
         return JsonData.buildSuccess(map);
     }
+
+    /**
+     * 测试全局异常处理方法
+     * @return
+     */
+    @GetMapping("list")
+    public JsonData testExt(){
+        int i = 1/0;
+        return JsonData.buildSuccess("");
+    }
 }
